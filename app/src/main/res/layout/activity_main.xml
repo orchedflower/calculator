@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL, AndroidDomInspection, AndroidDomInspection -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_centerInParent="true">
+
+    <TextView
+        android:id="@+id/Text_Vi"
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:layout_alignParentTop="true" />
+    <Button
+        android:id="@+id/C"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/Text_Vi"
+        android:text="C"
+        tools:ignore="HardcodedText"
+        tools:text="C" />
+    <Button
+        android:id="@+id/del"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/C"
+        android:text="Delet"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/Mc"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Text_Vi"
+        android:layout_marginStart="100dp"
+        android:text="MC"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/Mr"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/Text_Vi"
+        android:layout_toEndOf="@+id/Mc"
+        android:text="MR"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/M"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/Text_Vi"
+        android:text="M+"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/del"
+        android:text="7"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/seven"
+        android:text="4"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/one"
+        android:layout_width="90dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/four"
+        android:text="1"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/three"
+        android:text="0"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/sub_mins"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+
+        android:layout_alignStart="@+id/Mc"
+        android:layout_below="@+id/C"
+        android:text="+-"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/Mc"
+        android:layout_below="@+id/del"
+        android:text="8"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/Mc"
+        android:layout_below="@+id/seven"
+        android:text="5"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/tow"
+        android:layout_width="90dp"
+        android:layout_height="74dp"
+        android:layout_alignStart="@+id/Mc"
+        android:layout_below="@+id/four"
+        android:text="2"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/per"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/Mr"
+        android:layout_below="@+id/C"
+        android:text="%"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/Mr"
+        android:layout_below="@+id/del"
+        android:text="9"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/sex"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/Mr"
+        android:layout_below="@+id/seven"
+        android:text="5"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="90dp"
+        android:layout_height="75dp"
+        android:layout_alignStart="@+id/Mr"
+        android:layout_below="@+id/four"
+        android:text="3"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/dot"
+        android:layout_width="90dp"
+        android:layout_height="55dp"
+        android:layout_alignStart="@+id/Mr"
+        android:layout_below="@+id/three"
+        android:text="."
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/devid"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/C"
+        android:text="/"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/dev"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/del"
+        android:text="*"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/mins"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/sub"
+        android:layout_alignParentEnd="true"
+        android:text="-"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/four"
+        android:text="+"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/eql"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/three"
+        android:text="="
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
